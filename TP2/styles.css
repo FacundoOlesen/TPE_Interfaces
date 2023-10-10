@@ -322,10 +322,27 @@ span:hover{
     text-decoration: underline;
     cursor: pointer;
 }
+@media (max-width: 400px) {
+footer{
+    display: none;
+}
+}
 @media (max-width: 958px) {
-    footer{
-        display: none;
-    }}
+    
+    .links{
+        display: flex;
+        align-items: center;
+        text-transform: uppercase;
+        font-size: 14px;
+        margin-top: 50px;;
+        margin-right: 100px;
+    }
+
+    .links-1{
+      margin-top: -55px;
+      margin-left: 50px;  
+    }
+}
 
 .button {
     position: relative;

@@ -34,7 +34,6 @@ wrapper.addEventListener('mousemove', function (e) {
 })
 
 arrowRight.addEventListener('click', function (e) {
-    console.log("Flecha derecha 1")
     if(window.innerWidth>1269){
         wrapper.scrollLeft += 1580
         behaviour:'smooth'
@@ -46,7 +45,6 @@ arrowRight.addEventListener('click', function (e) {
 })
 
 arrowLeft.addEventListener('click', function (e) {
-    console.log("flecha izquierda POSTA")
     if(window.innerWidth<1269){
         wrapper.scrollLeft += 2420
     }
@@ -58,7 +56,6 @@ arrowLeft.addEventListener('click', function (e) {
 
 
 arrowRight2.addEventListener('click', function (e) {
-    console.log("Flecha derecha 2")
 
     if(window.innerWidth>1269){
         wrapper.scrollLeft += 1580
@@ -70,14 +67,12 @@ arrowRight2.addEventListener('click', function (e) {
 })
 
 arrowLeft2.addEventListener('click', function (e) {
-    console.log("Flecha izquierda 2")
     wrapper.scrollLeft += -1580
   })
 
 
 
   arrowRight3.addEventListener('click', function (e) {
-    console.log("Flecha derecha 3")
   
         wrapper.scrollLeft += -(3160)
    
@@ -85,7 +80,6 @@ arrowLeft2.addEventListener('click', function (e) {
 })
 
 arrowLeft3.addEventListener('click', function (e) {
-    console.log("Flecha izquierda 3")
     if(window.innerWidth>1269){
         wrapper.scrollLeft += -(1580)
     }

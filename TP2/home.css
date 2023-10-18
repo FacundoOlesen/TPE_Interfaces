@@ -1353,6 +1353,8 @@ nav{
     animation: spin-anim 1.2s linear infinite;
 }
 
+
+
 @keyframes spin-anim {
     0% {
         transform: rotate(0deg);
@@ -1369,10 +1371,18 @@ nav{
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
     position: fixed;
     background: #1b2838;
     z-index: 1;
 }
+
+.loader-perc{
+    display: flex;
+    color: #3d5af1;
+}
+
+
 
 @media (min-width: 1270px) {
     nav{
@@ -1383,6 +1393,7 @@ nav{
         height: 49px;
         margin-top: 0px;
         width: fit-content;
+        margin-left: 290px;
     }   
     .cont-despl{
         color: white;
@@ -1390,7 +1401,7 @@ nav{
         margin-top: 900px;
         height: 1000px;
         width: 280px;
-        margin-left: -615px;
+        margin-left: -555px;
         box-shadow:  0 0 0 100vmax rgba(0, 0, 0, .5);
         position: relative;
     }

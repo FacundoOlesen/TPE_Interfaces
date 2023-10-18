@@ -96,9 +96,18 @@ function loader(){
     loaderContainer.style.display = 'none';
 }
  
-
+const number = document.getElementById("perc");
+let offset = 0;
+        let time = setInterval(() => {
+            offset += 1;
+            if (number)
+                number.textContent=offset;
+            if (offset === 100)
+                clearInterval(time);
+        }, 50)
+        
 function parar(){
-    setInterval(loader,5000)
+    setInterval(loader,6000)
 }
 parar()
 

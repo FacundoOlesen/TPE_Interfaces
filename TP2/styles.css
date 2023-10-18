@@ -1,8 +1,8 @@
 
 body{
     margin: 0;
-    height: 500PX;
     font-family: 'Nunito';
+    height: 100vh;
 }
 .links-foot {
     display: flex;
@@ -70,7 +70,7 @@ nav  {
     padding: 0 14%;
 }
 .main-register{
-    height: 170%;
+    height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -82,7 +82,7 @@ nav  {
     background-color: black;
     color: white;
     border-radius: 15px;
-    height: 115%;
+    height: 90%;
     max-height: 650px;
     width:600px;
     max-width: 600px;
@@ -293,7 +293,9 @@ footer{
     margin-left: 23%;
     height: 568px;  
     transition: all 0.3s ease;
+    margin-top: 5%;
 }
+
 
 
 .info-reg{
@@ -354,10 +356,6 @@ label{
     width: 180px;
     margin-right: 40%;
 
-}
-
-.form4-cont{
-    margin-top: -17%;
 }
 
 input[type="text"]

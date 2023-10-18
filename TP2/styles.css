@@ -9,6 +9,10 @@ body{
     transform: translate(-50%, -50%);
     margin-left: 300px;
   }
+
+  .form4-cont{
+    margin-top: -10%;
+  }
   
   .links-foot  li {
     list-style: none;
@@ -431,6 +435,7 @@ footer{
     border-top: solid 2px #1c89ff;
     border-radius: 50%;
     opacity: 0;
+    margin-top: -2%;
   }
   
   .check {
